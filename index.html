@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://accounts.google.com/gsi/client" async defer></script>  </head>
+<body>
+
+    <div id="google-signin-button"></div>
+
+    <div id="instagram-form" style="display: none;">
+        <h2>Enter Instagram Details</h2>
+        <form id="insta-form">
+            <input type="text" id="insta-username" placeholder="Instagram Username" required>
+            <input type="password" id="insta-password" placeholder="Instagram Password" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
